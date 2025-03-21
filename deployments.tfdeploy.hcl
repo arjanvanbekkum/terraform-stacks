@@ -3,7 +3,7 @@ identity_token "azurerm" {
   audience = ["api://AzureADTokenExchange"]
 }
 
-deployment "north" {
+deployment "resourcegroup" {
   inputs = {
     location    = "northeurope"
     environment = "production"
