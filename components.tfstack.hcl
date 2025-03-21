@@ -6,6 +6,6 @@ component "resourcegroup" {
   }
 
   providers = {
-    azurerm = provider.azurerm.this
+    azurerm = provider.null.this
   }
 }

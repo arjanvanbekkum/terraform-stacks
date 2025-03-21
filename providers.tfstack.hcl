@@ -1,14 +1,13 @@
 required_providers {
-  azurerm = {
-    source  = "hashicorp/azurerm"
-    version = "4.6.0"
+  #   azurerm = {
+  #     source  = "hashicorp/azurerm"
+  #     version = "4.6.0"
+  #   }
+  null = {
+    source  = "hashicorp/null"
+    version = "3.0.0"
   }
 }
 
-provider "azurerm" "this" {
-  config {
-    features {
-
-    }
-  }
+provider "null" "this" {
 }
