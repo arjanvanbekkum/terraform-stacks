@@ -4,6 +4,5 @@
 *.tfplan
 gen_backend.tf
 gen_providers.tf
-.terraform.lock.hcl
 .gitlab/
 .DS_Store
